@@ -1,0 +1,47 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+.vite/
+
+# Logs and temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.pid
+*.pid.lock
+*.seed
+
+# Archives
+*.zip
+*.tar.gz
+*.tgz
+*.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor/IDE files
+.idea/
+.vscode/
+.history/
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# Deployment/platform files
+.vercel/

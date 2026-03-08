@@ -1,0 +1,92 @@
+[
+  {
+    "id": "job-1",
+    "title": "Software Engineer",
+    "company": "TechCorp",
+    "location": "San Francisco, CA",
+    "salary": 120000,
+    "type": "Full-time (On-site)",
+    "description": "Develop and maintain scalable web applications. Collaborate with cross-functional teams to design and ship reliable product features.",
+    "qualifications": [
+      "Bachelor's degree in Computer Science or related field.",
+      "3+ years of experience in full-stack development."
+    ]
+  },
+  {
+    "id": "job-2",
+    "title": "Content Writer",
+    "company": "Creative Ink",
+    "location": "Austin, TX",
+    "salary": 65000,
+    "type": "Part-time (Remote)",
+    "description": "Create engaging blog posts, product copy, and newsletters. Work closely with marketing teams to maintain brand voice and consistency.",
+    "qualifications": [
+      "Excellent written communication skills.",
+      "Portfolio of long-form and short-form content."
+    ]
+  },
+  {
+    "id": "job-3",
+    "title": "Data Analyst",
+    "company": "Data Insights Inc.",
+    "location": "Chicago, IL",
+    "salary": 95000,
+    "type": "Full-time (On-site)",
+    "description": "Analyze operational and customer data to generate actionable insights. Build dashboards and recurring reports for business stakeholders.",
+    "qualifications": [
+      "2+ years of SQL and spreadsheet analysis experience.",
+      "Experience with data visualization tools such as Tableau or Power BI."
+    ]
+  },
+  {
+    "id": "job-4",
+    "title": "UI/UX Designer",
+    "company": "Design Studio",
+    "location": "Seattle, WA",
+    "salary": 90000,
+    "type": "Part-time (On-site)",
+    "description": "Design user-centric interfaces and workflows for web products. Conduct usability reviews and create prototypes for stakeholder feedback.",
+    "qualifications": [
+      "Strong portfolio of product design work.",
+      "Proficiency with Figma and prototyping tools."
+    ]
+  },
+  {
+    "id": "job-5",
+    "title": "DevOps Engineer",
+    "company": "CloudTech",
+    "location": "Remote",
+    "salary": 130000,
+    "type": "Full-time (Remote)",
+    "description": "Maintain cloud infrastructure, automate CI/CD workflows, and improve deployment reliability across environments.",
+    "qualifications": [
+      "Experience with AWS or GCP cloud services.",
+      "Hands-on experience with Docker, Kubernetes, and CI/CD pipelines."
+    ]
+  },
+  {
+    "id": "job-6",
+    "title": "Customer Support Representative",
+    "company": "Supportly",
+    "location": "Remote",
+    "salary": 55000,
+    "type": "Full-time (Remote)",
+    "description": "Support customers through chat and email, troubleshoot product issues, and escalate technical concerns to engineering teams.",
+    "qualifications": [
+      "Excellent verbal and written communication skills.",
+      "1+ year of customer support experience in a SaaS environment."
+    ]
+  },
+  {
+    "id": "cd649d66-aa42-477d-90db-74f35c01a9e1",
+    "title": "AI Engineer",
+    "company": "Aramco",
+    "location": "NYC",
+    "salary": 89987,
+    "type": "Full-time (On-site)",
+    "description": "dev model",
+    "qualifications": [
+      "MS"
+    ]
+  }
+]

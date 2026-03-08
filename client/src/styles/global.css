@@ -1,0 +1,150 @@
+:root {
+  --brand-blue: #1f6feb;
+  --page-bg: #f2f4f7;
+  --card-border: #cfd4da;
+  --text-main: #212529;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--page-bg);
+  color: var(--text-main);
+}
+
+.app-main {
+  min-height: calc(100vh - 72px);
+}
+
+.app-navbar {
+  background-color: var(--brand-blue);
+}
+
+.app-navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.app-navbar .navbar-brand:hover,
+.app-navbar .navbar-brand:focus {
+  color: #ffffff;
+}
+
+.app-navbar .navbar-nav {
+  gap: 0.4rem;
+}
+
+.app-navbar .nav-link {
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.app-navbar .nav-link:hover,
+.app-navbar .nav-link:focus,
+.app-navbar .nav-link.active {
+  color: #ffffff;
+}
+
+.app-navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.app-navbar .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.app-navbar .navbar-toggler-icon {
+  filter: invert(100%);
+}
+
+.jobs-search {
+  min-height: 3.45rem;
+  font-size: 1.25rem;
+}
+
+.jobs-title,
+.details-title,
+.post-title {
+  font-size: clamp(2rem, 3vw, 3.6rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.job-card,
+.details-card,
+.post-job-card {
+  border-color: var(--card-border);
+  border-radius: 0.7rem;
+}
+
+.job-card-title {
+  font-size: clamp(1.7rem, 2.4vw, 2.8rem);
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+}
+
+.job-card-line {
+  font-size: 1.2rem;
+  margin-bottom: 0.85rem;
+}
+
+.job-actions .btn {
+  font-size: 1.1rem;
+  border-radius: 0.55rem;
+  min-height: 3.1rem;
+}
+
+.details-card p,
+.details-card li {
+  font-size: 1.25rem;
+  margin-bottom: 0.85rem;
+}
+
+.post-job-card .form-control,
+.post-job-card .form-select {
+  min-height: 3.2rem;
+  font-size: 1.1rem;
+}
+
+.post-job-card textarea.form-control {
+  min-height: 7rem;
+}
+
+.post-job-card .form-label {
+  font-size: 1.2rem;
+}
+
+.post-job-card .btn {
+  min-height: 3rem;
+  font-size: 1.15rem;
+}
+
+@media (max-width: 991.98px) {
+  .app-navbar .navbar-nav {
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .app-navbar .nav-link {
+    font-size: 2.2rem;
+    line-height: 1.25;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .app-navbar .navbar-brand {
+    font-size: 1.95rem;
+  }
+
+  .jobs-title,
+  .details-title,
+  .post-title {
+    font-size: 3.2rem;
+  }
+
+  .job-actions .btn {
+    width: 100%;
+  }
+}
